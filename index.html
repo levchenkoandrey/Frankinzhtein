@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>wishlistTeam</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="fon"></div>
+  <div id="lightMode" class="lightMode">
+    <header class="menu">
+      <img class="mobile-ava" src="img/avatar.png" alt="mobile-ava">
+      <div class="myWishes">My wishes</div>
+      <nav class="header-menu">
+        <ul class="hm">
+          <li>
+            <a href="#dreams" class="link_menu">3 dreams</a>
+          </li>
+          <li>
+            <a href="#brands" class="link_menu">5 brands<img class="icon-br" src="images/star.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#gi" class="link_menu">3 good idea<img class="icon-gi" src="images/thumb-up.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#bi" class="link_menu">3 bad idea<img class="icon-bi" src="images/thumb-down.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#wishlist" class="link_menu">wishlist<img class="icon-wish" src="images/basket.png" alt=""></a>
+          </li>
+          <li>
+            <a id="dm" href="pages/dark.html" class="link_menu">dark-mode<img class="icon-wish" src="images/basket.png"
+                alt=""></a>
+          </li>
+      </nav>
+    </header>
+    <div class="active">
+      <div class="ava">
+        <img src="img/avatar.png" width="460px" height="460px" alt="poto">
+        <div class="fb">
+          <ul class="wrapper">
+            <li class="icon facebook">
+              <span class="tooltip">Facebook</span>
+              <span><svg class="fab fa-facebook-f" width="12" height="23" viewBox="0 0 12 23" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.65708 12.3648H11.3793L11.9637 8.56055H7.65632V6.48134C7.65632 4.90099 8.16957 3.49962 9.63891 3.49962H12V0.179741C11.5852 0.123382 10.7078 0 9.04996 0C5.58819 0 3.55867 1.8393 3.55867 6.0297V8.56055H0V12.3648H3.55867V22.821C4.26344 22.9276 4.97729 23 5.71007 23C6.37245 23 7.01893 22.9391 7.65708 22.8522V12.3648Z"
+                    fill="#FC6A57" />
+                </svg></span>
+            <li class="icon instagram">
+              <span class="tooltip">Instagram</span>
+              <span><svg class="fab fa-instagram" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10 1.80723C12.6506 1.80723 13.0121 1.80723 14.0964 1.80723C15.0602 1.80723 15.5422 2.04819 15.9036 2.16868C16.3855 2.40964 16.747 2.53012 17.1084 2.89157C17.4699 3.25301 17.7108 3.61446 17.8313 4.09639C17.9518 4.45783 18.0723 4.93976 18.1928 5.90362C18.1928 6.98795 18.1928 7.22892 18.1928 10C18.1928 12.7711 18.1928 13.0121 18.1928 14.0964C18.1928 15.0602 17.9518 15.5422 17.8313 15.9036C17.5904 16.3855 17.4699 16.747 17.1084 17.1084C16.747 17.4699 16.3855 17.7108 15.9036 17.8313C15.5422 17.9518 15.0602 18.0723 14.0964 18.1928C13.0121 18.1928 12.7711 18.1928 10 18.1928C7.22892 18.1928 6.98795 18.1928 5.90362 18.1928C4.93976 18.1928 4.45783 17.9518 4.09639 17.8313C3.61446 17.5904 3.25301 17.4699 2.89157 17.1084C2.53012 16.747 2.28916 16.3855 2.16868 15.9036C2.04819 15.5422 1.92771 15.0602 1.80723 14.0964C1.80723 13.0121 1.80723 12.7711 1.80723 10C1.80723 7.22892 1.80723 6.98795 1.80723 5.90362C1.80723 4.93976 2.04819 4.45783 2.16868 4.09639C2.40964 3.61446 2.53012 3.25301 2.89157 2.89157C3.25301 2.53012 3.61446 2.28916 4.09639 2.16868C4.45783 2.04819 4.93976 1.92771 5.90362 1.80723C6.98795 1.80723 7.3494 1.80723 10 1.80723ZM10 0C7.22892 0 6.98795 0 5.90362 0C4.81928 0 4.09639 0.240965 3.49398 0.481928C2.89157 0.722892 2.28916 1.08434 1.68675 1.68675C1.08434 2.28916 0.843374 2.77109 0.481928 3.49398C0.240965 4.09639 0.120482 4.81928 0 5.90362C0 6.98795 0 7.3494 0 10C0 12.7711 0 13.0121 0 14.0964C0 15.1807 0.240965 15.9036 0.481928 16.506C0.722892 17.1084 1.08434 17.7108 1.68675 18.3133C2.28916 18.9157 2.77109 19.1566 3.49398 19.5181C4.09639 19.759 4.81928 19.8795 5.90362 20C6.98795 20 7.3494 20 10 20C12.6506 20 13.0121 20 14.0964 20C15.1807 20 15.9036 19.759 16.506 19.5181C17.1084 19.2771 17.7108 18.9157 18.3133 18.3133C18.9157 17.7108 19.1566 17.2289 19.5181 16.506C19.759 15.9036 19.8795 15.1807 20 14.0964C20 13.0121 20 12.6506 20 10C20 7.3494 20 6.98795 20 5.90362C20 4.81928 19.759 4.09639 19.5181 3.49398C19.2771 2.89157 18.9157 2.28916 18.3133 1.68675C17.7108 1.08434 17.2289 0.843374 16.506 0.481928C15.9036 0.240965 15.1807 0.120482 14.0964 0C13.0121 0 12.7711 0 10 0Z"
+                    fill="#FC6A57" />
+                  <path
+                    d="M10 4.81928C7.10843 4.81928 4.81928 7.10843 4.81928 10C4.81928 12.8916 7.10843 15.1807 10 15.1807C12.8916 15.1807 15.1807 12.8916 15.1807 10C15.1807 7.10843 12.8916 4.81928 10 4.81928ZM10 13.3735C8.19277 13.3735 6.62651 11.9277 6.62651 10C6.62651 8.19277 8.07229 6.62651 10 6.62651C11.8072 6.62651 13.3735 8.07229 13.3735 10C13.3735 11.8072 11.8072 13.3735 10 13.3735Z"
+                    fill="#FC6A57" />
+                  <path
+                    d="M15.3012 5.90362C15.9666 5.90362 16.506 5.3642 16.506 4.6988C16.506 4.03339 15.9666 3.49398 15.3012 3.49398C14.6358 3.49398 14.0964 4.03339 14.0964 4.6988C14.0964 5.3642 14.6358 5.90362 15.3012 5.90362Z"
+                    fill="#FC6A57" />
+                </svg></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="information">
+        <span class="kim">Keep in mind <p>I love surprises and unexpected pleasant emotions. I prefer flowers in
+            pots,
+            but please don't forget
+            about
+            my cat. <br> Some plants are dangerous to her</p></span>
+        <div class="calc">
+          <p>My Birthday's only</p>
+          <p id="demo"></p>
+        </div>
+        <span class="away">away</span>
+      </div>
+    </div>
+    <div id="dreams" class="badIdea">
+      <div class="ideasItam">
+        <div class="circleS"></div>
+        <div class="circleB"></div>
+        <h2 class="marker">3 dreams</h2>
+        <div class="circleB"></div>
+        <div class="circleS"></div>
+      </div>
+      <section class="dreams">
+        <div class="container-brands">
+          <div class="list-GI">
+            <div class="g-i">
+              <div class="img-GI">
+                <img src="img/dream1.jpeg" alt="product" class="img-gi">
+                <a href="#" class="btn btn-view"><i class="icon"><svg width="32" height="30" viewBox="0 0 32 30"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M31.0004 4.64001C29.6604 1.89001 25.8004 -0.359991 21.3104 0.950009C19.1648 1.56975 17.2929 2.89879 16.0004 4.72001C14.7078 2.89879 12.8359 1.56975 10.6904 0.950009C6.19036 -0.339991 2.34036 1.89001 1.00036 4.64001C-0.879645 8.49001 -0.0996444 12.82 3.32036 17.51C6.00036 21.18 9.83035 24.9 15.3904 29.22C15.5661 29.3571 15.7825 29.4315 16.0054 29.4315C16.2282 29.4315 16.4446 29.3571 16.6204 29.22C22.1704 24.91 26.0104 21.22 28.6904 17.51C32.1004 12.82 32.8804 8.49001 31.0004 4.64001Z"
+                        fill="#FC6A57" />
+                    </svg></i></a>
+              </div>
+              <div class="brandName">
+                <h3 class="brand-name">travel to Cuba</h3>
+              </div>
+            </div>
+            <div class="g-i">
+              <div class="img-GI">
+                <img src="img/dream2.jpeg" alt="product" class="img-gi">
+                <a href="#" class="btn btn-view"><i class="icon"><svg width="32" height="30" viewBox="0 0 32 30"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M31.0004 4.64001C29.6604 1.89001 25.8004 -0.359991 21.3104 0.950009C19.1648 1.56975 17.2929 2.89879 16.0004 4.72001C14.7078 2.89879 12.8359 1.56975 10.6904 0.950009C6.19036 -0.339991 2.34036 1.89001 1.00036 4.64001C-0.879645 8.49001 -0.0996444 12.82 3.32036 17.51C6.00036 21.18 9.83035 24.9 15.3904 29.22C15.5661 29.3571 15.7825 29.4315 16.0054 29.4315C16.2282 29.4315 16.4446 29.3571 16.6204 29.22C22.1704 24.91 26.0104 21.22 28.6904 17.51C32.1004 12.82 32.8804 8.49001 31.0004 4.64001Z"
+                        fill="#FC6A57" />
+                    </svg></i></a>
+              </div>
+              <div class="brandName">
+                <h3 class="brand-name">world fame</h3>
+              </div>
+            </div>
+            <div class="g-i">
+              <div class="img-GI">
+                <img src="img/dream3.jpeg" alt="product" class="img-gi">
+                <a href="#" class="btn btn-view"><i class="icon"><svg width="32" height="30" viewBox="0 0 32 30"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M31.0004 4.64001C29.6604 1.89001 25.8004 -0.359991 21.3104 0.950009C19.1648 1.56975 17.2929 2.89879 16.0004 4.72001C14.7078 2.89879 12.8359 1.56975 10.6904 0.950009C6.19036 -0.339991 2.34036 1.89001 1.00036 4.64001C-0.879645 8.49001 -0.0996444 12.82 3.32036 17.51C6.00036 21.18 9.83035 24.9 15.3904 29.22C15.5661 29.3571 15.7825 29.4315 16.0054 29.4315C16.2282 29.4315 16.4446 29.3571 16.6204 29.22C22.1704 24.91 26.0104 21.22 28.6904 17.51C32.1004 12.82 32.8804 8.49001 31.0004 4.64001Z"
+                        fill="#FC6A57" />
+                    </svg></i></a>
+              </div>
+              <div class="brandName">
+                <h3 class="brand-name">world fame</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="LA">
+      <div id="brands" class="Brands">
+        <div class="brandsItam">
+          <div class="circleS"></div>
+          <div class="circleB"></div>
+          <h2 class="marker">5 brands</h2>
+          <div class="circleB"></div>
+          <div class="circleS"></div>
+        </div>
+        <section class="brands">
+          <div class="container-brands">
+            <div class="list-brands">
+              <div class="brand">
+                <div class="imgBrand">
+                  <img src="img/logo-apple-desktop.png" alt="product" class="img-brand">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="28" height="27" viewBox="0 0 28 27"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.31863 26.8974C5.64313 27.2538 4.87663 26.6292 5.01313 25.8318L6.46563 17.3181L0.300393 11.2775C-0.275356 10.7123 0.0238934 9.67918 0.795641 9.56758L9.36712 8.31482L13.1891 0.526482C13.5339 -0.175494 14.4666 -0.175494 14.8114 0.526482L18.6333 8.31482L27.2048 9.56758C27.9766 9.67918 28.2758 10.7123 27.6983 11.2775L21.5348 17.3181L22.9873 25.8318C23.1238 26.6292 22.3573 27.2538 21.6818 26.8974L13.9976 22.8367L6.31688 26.8974H6.31863Z"
+                          fill="#FC6A57" />
+                      </svg>
+                    </i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">apple</h3>
+                </div>
+              </div>
+              <div class="brand">
+                <div class="imgBrand">
+                  <img src="img/logo-ikea-desktop.png" alt="product" class="img-brand">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="28" height="27" viewBox="0 0 28 27"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.31863 26.8974C5.64313 27.2538 4.87663 26.6292 5.01313 25.8318L6.46563 17.3181L0.300393 11.2775C-0.275356 10.7123 0.0238934 9.67918 0.795641 9.56758L9.36712 8.31482L13.1891 0.526482C13.5339 -0.175494 14.4666 -0.175494 14.8114 0.526482L18.6333 8.31482L27.2048 9.56758C27.9766 9.67918 28.2758 10.7123 27.6983 11.2775L21.5348 17.3181L22.9873 25.8318C23.1238 26.6292 22.3573 27.2538 21.6818 26.8974L13.9976 22.8367L6.31688 26.8974H6.31863Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">IKEA</h3>
+                </div>
+              </div>
+              <div class="brand">
+                <div class="imgBrand">
+                  <img src="img/logo-jo Malone-desktop.png" alt="product" class="img-brand">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="28" height="27" viewBox="0 0 28 27"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.31863 26.8974C5.64313 27.2538 4.87663 26.6292 5.01313 25.8318L6.46563 17.3181L0.300393 11.2775C-0.275356 10.7123 0.0238934 9.67918 0.795641 9.56758L9.36712 8.31482L13.1891 0.526482C13.5339 -0.175494 14.4666 -0.175494 14.8114 0.526482L18.6333 8.31482L27.2048 9.56758C27.9766 9.67918 28.2758 10.7123 27.6983 11.2775L21.5348 17.3181L22.9873 25.8318C23.1238 26.6292 22.3573 27.2538 21.6818 26.8974L13.9976 22.8367L6.31688 26.8974H6.31863Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">Jo Malone</h3>
+                </div>
+              </div>
+              <div class="brand">
+                <div class="imgBrand">
+                  <img src="img/logo-philips-desktop.png" alt="product" class="img-brand">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="28" height="27" viewBox="0 0 28 27"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.31863 26.8974C5.64313 27.2538 4.87663 26.6292 5.01313 25.8318L6.46563 17.3181L0.300393 11.2775C-0.275356 10.7123 0.0238934 9.67918 0.795641 9.56758L9.36712 8.31482L13.1891 0.526482C13.5339 -0.175494 14.4666 -0.175494 14.8114 0.526482L18.6333 8.31482L27.2048 9.56758C27.9766 9.67918 28.2758 10.7123 27.6983 11.2775L21.5348 17.3181L22.9873 25.8318C23.1238 26.6292 22.3573 27.2538 21.6818 26.8974L13.9976 22.8367L6.31688 26.8974H6.31863Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">philips</h3>
+                </div>
+              </div>
+              <div class="brand">
+                <div class="imgBrand">
+                  <img src="img/logo-DG-desktop.png" alt="product" class="img-brand">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="28" height="27" viewBox="0 0 28 27"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M6.31863 26.8974C5.64313 27.2538 4.87663 26.6292 5.01313 25.8318L6.46563 17.3181L0.300393 11.2775C-0.275356 10.7123 0.0238934 9.67918 0.795641 9.56758L9.36712 8.31482L13.1891 0.526482C13.5339 -0.175494 14.4666 -0.175494 14.8114 0.526482L18.6333 8.31482L27.2048 9.56758C27.9766 9.67918 28.2758 10.7123 27.6983 11.2775L21.5348 17.3181L22.9873 25.8318C23.1238 26.6292 22.3573 27.2538 21.6818 26.8974L13.9976 22.8367L6.31688 26.8974H6.31863Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">D&G</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="gi" class="goodIdea">
+        <div class="ideasItam">
+          <div class="circleS"></div>
+          <div class="circleB"></div>
+          <h2 id="agi">3 always GOOD idea</h2>
+          <div class="circleB"></div>
+          <div class="circleS"></div>
+        </div>
+        <section class="goodIdeas">
+          <div class="container-brands">
+            <div class="list-GI">
+              <div class="g-i">
+                <div class="img-GI">
+                  <img src="img/candles.jpg" alt="product" class="img-gi">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="24" height="29" viewBox="0 0 24 29"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.9897 0.0777987C13.8722 -0.262261 12.9853 0.574703 12.6957 1.38252C12.5296 1.84542 12.3784 2.27431 12.236 2.67683C11.6705 4.27719 11.2535 5.4563 10.6839 6.64304C8.88696 10.3899 6.59302 13.3221 2.30485 15.3361C0.667968 16.105 -0.383054 17.9719 0.131607 19.8644L0.968357 22.9402C1.20347 23.8051 1.66039 24.5899 2.29172 25.2131C2.92306 25.8363 3.70581 26.2753 4.55878 26.4845L14.0994 28.8233C15.6841 29.2119 17.3543 28.954 18.7565 28.1043C20.1587 27.2545 21.1828 25.8796 21.6118 24.2706L23.8725 15.792C24.4902 13.4741 22.7855 11.1894 20.438 11.1894H17.0205C17.5047 9.49607 17.8763 7.42101 17.8613 5.53333C17.8518 4.36117 17.6932 3.19594 17.2707 2.22712C16.8374 1.2347 16.1092 0.417165 14.9897 0.0777987Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">candles</h3>
+                </div>
+              </div>
+              <div class="g-i">
+                <div class="img-GI">
+                  <img src="img/cute notebooks.jpg" alt="product" class="img-gi">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="24" height="29" viewBox="0 0 24 29"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.9897 0.0777987C13.8722 -0.262261 12.9853 0.574703 12.6957 1.38252C12.5296 1.84542 12.3784 2.27431 12.236 2.67683C11.6705 4.27719 11.2535 5.4563 10.6839 6.64304C8.88696 10.3899 6.59302 13.3221 2.30485 15.3361C0.667968 16.105 -0.383054 17.9719 0.131607 19.8644L0.968357 22.9402C1.20347 23.8051 1.66039 24.5899 2.29172 25.2131C2.92306 25.8363 3.70581 26.2753 4.55878 26.4845L14.0994 28.8233C15.6841 29.2119 17.3543 28.954 18.7565 28.1043C20.1587 27.2545 21.1828 25.8796 21.6118 24.2706L23.8725 15.792C24.4902 13.4741 22.7855 11.1894 20.438 11.1894H17.0205C17.5047 9.49607 17.8763 7.42101 17.8613 5.53333C17.8518 4.36117 17.6932 3.19594 17.2707 2.22712C16.8374 1.2347 16.1092 0.417165 14.9897 0.0777987Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">cute notebooks</h3>
+                </div>
+              </div>
+              <div class="g-i">
+                <div class="img-GI">
+                  <img src="img/money.jpg" alt="product" class="img-gi">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="24" height="29" viewBox="0 0 24 29"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.9897 0.0777987C13.8722 -0.262261 12.9853 0.574703 12.6957 1.38252C12.5296 1.84542 12.3784 2.27431 12.236 2.67683C11.6705 4.27719 11.2535 5.4563 10.6839 6.64304C8.88696 10.3899 6.59302 13.3221 2.30485 15.3361C0.667968 16.105 -0.383054 17.9719 0.131607 19.8644L0.968357 22.9402C1.20347 23.8051 1.66039 24.5899 2.29172 25.2131C2.92306 25.8363 3.70581 26.2753 4.55878 26.4845L14.0994 28.8233C15.6841 29.2119 17.3543 28.954 18.7565 28.1043C20.1587 27.2545 21.1828 25.8796 21.6118 24.2706L23.8725 15.792C24.4902 13.4741 22.7855 11.1894 20.438 11.1894H17.0205C17.5047 9.49607 17.8763 7.42101 17.8613 5.53333C17.8518 4.36117 17.6932 3.19594 17.2707 2.22712C16.8374 1.2347 16.1092 0.417165 14.9897 0.0777987Z"
+                          fill="#FC6A57" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">money</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="bi" class="badIdea">
+        <div class="bad-ideasItam">
+          <div class="circleS"></div>
+          <div class="circleB"></div>
+          <h2 class="marker">3 always BAD idea</h2>
+          <div class="circleB"></div>
+          <div class="circleS"></div>
+        </div>
+        <section class="goodIdeas">
+          <div class="container-brands">
+            <div class="list-GI">
+              <div class="g-i">
+                <div class="img-GI">
+                  <img src="img/souvenirs.jpg" alt="product" class="img-gi">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="24" height="29" viewBox="0 0 24 29"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.9897 28.9222C13.8722 29.2623 12.9853 28.4253 12.6957 27.6175C12.5296 27.1546 12.3784 26.7257 12.236 26.3232C11.6705 24.7228 11.2535 23.5437 10.6839 22.357C8.88696 18.6101 6.59302 15.6779 2.30485 13.6639C0.667968 12.895 -0.383054 11.0281 0.131607 9.13557L0.968357 6.05976C1.20347 5.19489 1.66039 4.41014 2.29172 3.78693C2.92306 3.16371 3.70581 2.72473 4.55878 2.5155L14.0994 0.176722C15.6841 -0.211901 17.3543 0.0459614 18.7565 0.89571C20.1587 1.74546 21.1828 3.12038 21.6118 4.72936L23.8725 13.208C24.4902 15.5259 22.7855 17.8106 20.438 17.8106H17.0205C17.5047 19.5039 17.8763 21.579 17.8613 23.4667C17.8518 24.6388 17.6932 25.8041 17.2707 26.7729C16.8374 27.7653 16.1092 28.5828 14.9897 28.9222Z"
+                          fill="#1F3865" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">souvenirs</h3>
+                </div>
+              </div>
+              <div class="g-i">
+                <div class="img-GI">
+                  <img src="img/stuffed toys.jpg" alt="product" class="img-gi">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="24" height="29" viewBox="0 0 24 29"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.9897 28.9222C13.8722 29.2623 12.9853 28.4253 12.6957 27.6175C12.5296 27.1546 12.3784 26.7257 12.236 26.3232C11.6705 24.7228 11.2535 23.5437 10.6839 22.357C8.88696 18.6101 6.59302 15.6779 2.30485 13.6639C0.667968 12.895 -0.383054 11.0281 0.131607 9.13557L0.968357 6.05976C1.20347 5.19489 1.66039 4.41014 2.29172 3.78693C2.92306 3.16371 3.70581 2.72473 4.55878 2.5155L14.0994 0.176722C15.6841 -0.211901 17.3543 0.0459614 18.7565 0.89571C20.1587 1.74546 21.1828 3.12038 21.6118 4.72936L23.8725 13.208C24.4902 15.5259 22.7855 17.8106 20.438 17.8106H17.0205C17.5047 19.5039 17.8763 21.579 17.8613 23.4667C17.8518 24.6388 17.6932 25.8041 17.2707 26.7729C16.8374 27.7653 16.1092 28.5828 14.9897 28.9222Z"
+                          fill="#1F3865" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">stuffed toys</h3>
+                </div>
+              </div>
+              <div class="g-i">
+                <div class="img-GI">
+                  <img src="img/sweets.jpg" alt="product" class="img-gi">
+                  <a href="#" class="btn btn-view"><i class="icon"><svg width="24" height="29" viewBox="0 0 24 29"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.9897 28.9222C13.8722 29.2623 12.9853 28.4253 12.6957 27.6175C12.5296 27.1546 12.3784 26.7257 12.236 26.3232C11.6705 24.7228 11.2535 23.5437 10.6839 22.357C8.88696 18.6101 6.59302 15.6779 2.30485 13.6639C0.667968 12.895 -0.383054 11.0281 0.131607 9.13557L0.968357 6.05976C1.20347 5.19489 1.66039 4.41014 2.29172 3.78693C2.92306 3.16371 3.70581 2.72473 4.55878 2.5155L14.0994 0.176722C15.6841 -0.211901 17.3543 0.0459614 18.7565 0.89571C20.1587 1.74546 21.1828 3.12038 21.6118 4.72936L23.8725 13.208C24.4902 15.5259 22.7855 17.8106 20.438 17.8106H17.0205C17.5047 19.5039 17.8763 21.579 17.8613 23.4667C17.8518 24.6388 17.6932 25.8041 17.2707 26.7729C16.8374 27.7653 16.1092 28.5828 14.9897 28.9222Z"
+                          fill="#1F3865" />
+                      </svg></i></a>
+                </div>
+                <div class="brandName">
+                  <h3 class="brand-name">sweets</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="wishlist" class="wishlistSection">
+      <div class="ideasItam">
+        <div class="circleS"></div>
+        <div class="circleB"></div>
+        <h2 class="wishlist">wishlist</h2>
+        <div class="circleB"></div>
+        <div class="circleS"></div>
+      </div>
+      <div class="wishesConteiner">
+
+
+        <div class="poster">
+          <div class="descr">
+            <p class="posterName">Yves Saint Laurent Black Opium</p>
+            <i class="iconPresent"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.5 0H9.6375C11.6312 0 13.4812 1.05687 14.4937 2.77813L16 5.34125L17.5063 2.77813C18.5188 1.05687 20.3687 0 22.3625 0H22.5C25.5375 0 28 2.4625 28 5.5C28 6.4 27.7812 7.19375 27.4 8H30C31.1063 8 32 8.89375 32 10V14C32 15.1062 31.1063 16 30 16H2C0.895625 16 0 15.1062 0 14V10C0 8.89375 0.895625 8 2 8H4.6C4.21625 7.19375 4 6.4 4 5.5C4 2.4625 6.4625 0 9.5 0ZM11.9062 4.29875C11.4312 3.49437 10.5687 3 9.6375 3H9.5C8.11875 3 7 4.11938 7 5.5C7 6.88125 8.11875 8 9.5 8H14.0813L11.9062 4.29875ZM22.5 3H22.3625C21.4312 3 20.5688 3.49437 20.0938 4.29875L17.9188 8H22.5C23.8813 8 25 6.88125 25 5.5C25 4.11938 23.8813 3 22.5 3ZM2 18H14V32H5C3.34312 32 2 30.6562 2 29V18ZM18 32V18H30V29C30 30.6562 28.6562 32 27 32H18Z"
+                  fill="white" />
+              </svg></i>
+            <a class="posterLink"
+              href="https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147"
+              title="открой меня"
+              target="_blank">https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147</a>
+          </div>
+        </div>
+
+
+
+        <div class="poster2">
+          <div class="descr2">
+            <p class="posterName">Yves Saint Laurent Black Opium</p>
+            <i class="iconPresent"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.5 0H9.6375C11.6312 0 13.4812 1.05687 14.4937 2.77813L16 5.34125L17.5063 2.77813C18.5188 1.05687 20.3687 0 22.3625 0H22.5C25.5375 0 28 2.4625 28 5.5C28 6.4 27.7812 7.19375 27.4 8H30C31.1063 8 32 8.89375 32 10V14C32 15.1062 31.1063 16 30 16H2C0.895625 16 0 15.1062 0 14V10C0 8.89375 0.895625 8 2 8H4.6C4.21625 7.19375 4 6.4 4 5.5C4 2.4625 6.4625 0 9.5 0ZM11.9062 4.29875C11.4312 3.49437 10.5687 3 9.6375 3H9.5C8.11875 3 7 4.11938 7 5.5C7 6.88125 8.11875 8 9.5 8H14.0813L11.9062 4.29875ZM22.5 3H22.3625C21.4312 3 20.5688 3.49437 20.0938 4.29875L17.9188 8H22.5C23.8813 8 25 6.88125 25 5.5C25 4.11938 23.8813 3 22.5 3ZM2 18H14V32H5C3.34312 32 2 30.6562 2 29V18ZM18 32V18H30V29C30 30.6562 28.6562 32 27 32H18Z"
+                  fill="white" />
+              </svg></i>
+            <a class="posterLink" href="https://www.lush.com/de/de/c/bath-bombs" title="открой меня"
+              target="_blank">https://www.lush.com/de/de/c/bath-bombs</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="poster3">
+          <div class="descr3">
+            <p class="posterName">Yves Saint Laurent Black Opium</p>
+            <i class="iconPresent"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.5 0H9.6375C11.6312 0 13.4812 1.05687 14.4937 2.77813L16 5.34125L17.5063 2.77813C18.5188 1.05687 20.3687 0 22.3625 0H22.5C25.5375 0 28 2.4625 28 5.5C28 6.4 27.7812 7.19375 27.4 8H30C31.1063 8 32 8.89375 32 10V14C32 15.1062 31.1063 16 30 16H2C0.895625 16 0 15.1062 0 14V10C0 8.89375 0.895625 8 2 8H4.6C4.21625 7.19375 4 6.4 4 5.5C4 2.4625 6.4625 0 9.5 0ZM11.9062 4.29875C11.4312 3.49437 10.5687 3 9.6375 3H9.5C8.11875 3 7 4.11938 7 5.5C7 6.88125 8.11875 8 9.5 8H14.0813L11.9062 4.29875ZM22.5 3H22.3625C21.4312 3 20.5688 3.49437 20.0938 4.29875L17.9188 8H22.5C23.8813 8 25 6.88125 25 5.5C25 4.11938 23.8813 3 22.5 3ZM2 18H14V32H5C3.34312 32 2 30.6562 2 29V18ZM18 32V18H30V29C30 30.6562 28.6562 32 27 32H18Z"
+                  fill="white" />
+              </svg></i>
+            <a class="posterLink"
+              href="https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147"
+              title="открой меня"
+              target="_blank">https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147</a>
+          </div>
+        </div>
+
+
+
+        <div class="poster4">
+          <div class="descr4">
+            <p class="posterName">Yves Saint Laurent Black Opium</p>
+            <i class="iconPresent"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.5 0H9.6375C11.6312 0 13.4812 1.05687 14.4937 2.77813L16 5.34125L17.5063 2.77813C18.5188 1.05687 20.3687 0 22.3625 0H22.5C25.5375 0 28 2.4625 28 5.5C28 6.4 27.7812 7.19375 27.4 8H30C31.1063 8 32 8.89375 32 10V14C32 15.1062 31.1063 16 30 16H2C0.895625 16 0 15.1062 0 14V10C0 8.89375 0.895625 8 2 8H4.6C4.21625 7.19375 4 6.4 4 5.5C4 2.4625 6.4625 0 9.5 0ZM11.9062 4.29875C11.4312 3.49437 10.5687 3 9.6375 3H9.5C8.11875 3 7 4.11938 7 5.5C7 6.88125 8.11875 8 9.5 8H14.0813L11.9062 4.29875ZM22.5 3H22.3625C21.4312 3 20.5688 3.49437 20.0938 4.29875L17.9188 8H22.5C23.8813 8 25 6.88125 25 5.5C25 4.11938 23.8813 3 22.5 3ZM2 18H14V32H5C3.34312 32 2 30.6562 2 29V18ZM18 32V18H30V29C30 30.6562 28.6562 32 27 32H18Z"
+                  fill="white" />
+              </svg></i>
+            <a class="posterLink"
+              href="https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147"
+              title="открой меня"
+              target="_blank">https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147</a>
+          </div>
+        </div>
+
+
+
+        <div class="poster5">
+          <div class="descr5">
+            <p class="posterName">Yves Saint Laurent Black Opium</p>
+            <i class="iconPresent"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.5 0H9.6375C11.6312 0 13.4812 1.05687 14.4937 2.77813L16 5.34125L17.5063 2.77813C18.5188 1.05687 20.3687 0 22.3625 0H22.5C25.5375 0 28 2.4625 28 5.5C28 6.4 27.7812 7.19375 27.4 8H30C31.1063 8 32 8.89375 32 10V14C32 15.1062 31.1063 16 30 16H2C0.895625 16 0 15.1062 0 14V10C0 8.89375 0.895625 8 2 8H4.6C4.21625 7.19375 4 6.4 4 5.5C4 2.4625 6.4625 0 9.5 0ZM11.9062 4.29875C11.4312 3.49437 10.5687 3 9.6375 3H9.5C8.11875 3 7 4.11938 7 5.5C7 6.88125 8.11875 8 9.5 8H14.0813L11.9062 4.29875ZM22.5 3H22.3625C21.4312 3 20.5688 3.49437 20.0938 4.29875L17.9188 8H22.5C23.8813 8 25 6.88125 25 5.5C25 4.11938 23.8813 3 22.5 3ZM2 18H14V32H5C3.34312 32 2 30.6562 2 29V18ZM18 32V18H30V29C30 30.6562 28.6562 32 27 32H18Z"
+                  fill="white" />
+              </svg></i>
+            <a class="posterLink"
+              href="https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147"
+              title="открой меня"
+              target="_blank">https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147</a>
+          </div>
+        </div>
+
+
+
+
+        <div class="poster6">
+          <div class="descr6">
+            <p class="posterName">Yves Saint Laurent Black Opium</p>
+            <i class="iconPresent"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.5 0H9.6375C11.6312 0 13.4812 1.05687 14.4937 2.77813L16 5.34125L17.5063 2.77813C18.5188 1.05687 20.3687 0 22.3625 0H22.5C25.5375 0 28 2.4625 28 5.5C28 6.4 27.7812 7.19375 27.4 8H30C31.1063 8 32 8.89375 32 10V14C32 15.1062 31.1063 16 30 16H2C0.895625 16 0 15.1062 0 14V10C0 8.89375 0.895625 8 2 8H4.6C4.21625 7.19375 4 6.4 4 5.5C4 2.4625 6.4625 0 9.5 0ZM11.9062 4.29875C11.4312 3.49437 10.5687 3 9.6375 3H9.5C8.11875 3 7 4.11938 7 5.5C7 6.88125 8.11875 8 9.5 8H14.0813L11.9062 4.29875ZM22.5 3H22.3625C21.4312 3 20.5688 3.49437 20.0938 4.29875L17.9188 8H22.5C23.8813 8 25 6.88125 25 5.5C25 4.11938 23.8813 3 22.5 3ZM2 18H14V32H5C3.34312 32 2 30.6562 2 29V18ZM18 32V18H30V29C30 30.6562 28.6562 32 27 32H18Z"
+                  fill="white" />
+              </svg></i>
+            <a class="posterLink"
+              href="https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147"
+              title="открой меня"
+              target="_blank">https://www.brocard.ua/ru/product/tualetnaya-voda-yves-saint-laurent-black-opium-90-ml-000147</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <footer>
+      <div class="myWishes"><a href="#lightMode">My wishes</a></div>
+      <div class="formBig"></div>
+      <div class="formSmall"></div>
+      <div class="fb">
+        <ul class="wrapper">
+          <li class="icon facebook">
+            <span class="tooltip">Facebook</span>
+            <span><svg class="fab fa-facebook-f" width="12" height="23" viewBox="0 0 12 23" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.65708 12.3648H11.3793L11.9637 8.56055H7.65632V6.48134C7.65632 4.90099 8.16957 3.49962 9.63891 3.49962H12V0.179741C11.5852 0.123382 10.7078 0 9.04996 0C5.58819 0 3.55867 1.8393 3.55867 6.0297V8.56055H0V12.3648H3.55867V22.821C4.26344 22.9276 4.97729 23 5.71007 23C6.37245 23 7.01893 22.9391 7.65708 22.8522V12.3648Z"
+                  fill="#FC6A57" />
+              </svg></span>
+          <li class="icon instagram">
+            <span class="tooltip">Instagram</span>
+            <span><svg class="fab fa-instagram" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10 1.80723C12.6506 1.80723 13.0121 1.80723 14.0964 1.80723C15.0602 1.80723 15.5422 2.04819 15.9036 2.16868C16.3855 2.40964 16.747 2.53012 17.1084 2.89157C17.4699 3.25301 17.7108 3.61446 17.8313 4.09639C17.9518 4.45783 18.0723 4.93976 18.1928 5.90362C18.1928 6.98795 18.1928 7.22892 18.1928 10C18.1928 12.7711 18.1928 13.0121 18.1928 14.0964C18.1928 15.0602 17.9518 15.5422 17.8313 15.9036C17.5904 16.3855 17.4699 16.747 17.1084 17.1084C16.747 17.4699 16.3855 17.7108 15.9036 17.8313C15.5422 17.9518 15.0602 18.0723 14.0964 18.1928C13.0121 18.1928 12.7711 18.1928 10 18.1928C7.22892 18.1928 6.98795 18.1928 5.90362 18.1928C4.93976 18.1928 4.45783 17.9518 4.09639 17.8313C3.61446 17.5904 3.25301 17.4699 2.89157 17.1084C2.53012 16.747 2.28916 16.3855 2.16868 15.9036C2.04819 15.5422 1.92771 15.0602 1.80723 14.0964C1.80723 13.0121 1.80723 12.7711 1.80723 10C1.80723 7.22892 1.80723 6.98795 1.80723 5.90362C1.80723 4.93976 2.04819 4.45783 2.16868 4.09639C2.40964 3.61446 2.53012 3.25301 2.89157 2.89157C3.25301 2.53012 3.61446 2.28916 4.09639 2.16868C4.45783 2.04819 4.93976 1.92771 5.90362 1.80723C6.98795 1.80723 7.3494 1.80723 10 1.80723ZM10 0C7.22892 0 6.98795 0 5.90362 0C4.81928 0 4.09639 0.240965 3.49398 0.481928C2.89157 0.722892 2.28916 1.08434 1.68675 1.68675C1.08434 2.28916 0.843374 2.77109 0.481928 3.49398C0.240965 4.09639 0.120482 4.81928 0 5.90362C0 6.98795 0 7.3494 0 10C0 12.7711 0 13.0121 0 14.0964C0 15.1807 0.240965 15.9036 0.481928 16.506C0.722892 17.1084 1.08434 17.7108 1.68675 18.3133C2.28916 18.9157 2.77109 19.1566 3.49398 19.5181C4.09639 19.759 4.81928 19.8795 5.90362 20C6.98795 20 7.3494 20 10 20C12.6506 20 13.0121 20 14.0964 20C15.1807 20 15.9036 19.759 16.506 19.5181C17.1084 19.2771 17.7108 18.9157 18.3133 18.3133C18.9157 17.7108 19.1566 17.2289 19.5181 16.506C19.759 15.9036 19.8795 15.1807 20 14.0964C20 13.0121 20 12.6506 20 10C20 7.3494 20 6.98795 20 5.90362C20 4.81928 19.759 4.09639 19.5181 3.49398C19.2771 2.89157 18.9157 2.28916 18.3133 1.68675C17.7108 1.08434 17.2289 0.843374 16.506 0.481928C15.9036 0.240965 15.1807 0.120482 14.0964 0C13.0121 0 12.7711 0 10 0Z"
+                  fill="#FC6A57" />
+                <path
+                  d="M10 4.81928C7.10843 4.81928 4.81928 7.10843 4.81928 10C4.81928 12.8916 7.10843 15.1807 10 15.1807C12.8916 15.1807 15.1807 12.8916 15.1807 10C15.1807 7.10843 12.8916 4.81928 10 4.81928ZM10 13.3735C8.19277 13.3735 6.62651 11.9277 6.62651 10C6.62651 8.19277 8.07229 6.62651 10 6.62651C11.8072 6.62651 13.3735 8.07229 13.3735 10C13.3735 11.8072 11.8072 13.3735 10 13.3735Z"
+                  fill="#FC6A57" />
+                <path
+                  d="M15.3012 5.90362C15.9666 5.90362 16.506 5.3642 16.506 4.6988C16.506 4.03339 15.9666 3.49398 15.3012 3.49398C14.6358 3.49398 14.0964 4.03339 14.0964 4.6988C14.0964 5.3642 14.6358 5.90362 15.3012 5.90362Z"
+                  fill="#FC6A57" />
+              </svg></span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script>
+    var countDownDate = new Date("December 31, 2022 23:59:59").getTime();
+    var x = setInterval(function () {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+
+</body>
+
+</html>
